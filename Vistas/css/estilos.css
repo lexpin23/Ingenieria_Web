@@ -1,3 +1,19 @@
-#tv-logo{
+/* BARRA DE NAVEGACION*/
+
+#barra-navegacion{
+    height: 80px;
+    background-color: #b79de4d3;
+}
+
+#barra-navegacion ul li:hover{
+    /*background-color: #b79de4d3;*/
+}
+
+#streamings{
+    /*background-color: #936dd4;*/
+}
+
+
+.tv-logo{
     width: 20%;
 }
