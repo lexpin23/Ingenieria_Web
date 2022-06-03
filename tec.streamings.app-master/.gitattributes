@@ -1,0 +1,10 @@
+streamings.api/* text=auto
+streamings.api/
+streamings.api/*.blade.php diff=html
+streamings.api/*.css diff=css
+streamings.api/*.html diff=html
+streamings.api/*.md diff=markdown
+streamings.api/*.php diff=php
+streamings.api/
+streamings.api/.github export-ignore
+CHANGELOG.md export-ignore

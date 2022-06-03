@@ -1,0 +1,48 @@
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.main-content {
+    width: 100vw;
+    background-color: rgba(245, 239, 239, 0.37);
+    height: 100vh;
+}
+
+.log-form {
+    width: 500px;
+    height: 360px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px 40px 15px 40px;
+}
+
+.form-group {
+    margin: 5px;
+}
+
+.recuperarbtn {
+    width: 98%;
+}
+
+.login-container {
+    height: 100%;
+    width: 100%;
+}
+
+.custom-btn {
+    width: 100%;
+    margin: 5px;
+    /* background-color: grey; */
+}
+
+.flex-row {
+    width: 100%;
+}
+
+#container {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
