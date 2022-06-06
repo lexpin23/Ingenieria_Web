@@ -10,25 +10,31 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import('../views/Home.vue')
   },
-//   {
-//     path: '/about',
-//     name: 'About',
-//     // route level code-splitting
-//     // this generates a separate chunk (about.[hash].js) for this route
-//     // which is lazy-loaded when the route is visited.
-//     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-//   },
-//   {
-//     path: '/auth',
-//     ...authRouter,
-//   },
-//   {
-//     path: '/daybook',
-//     beforeEnter: [ isAuthenticatedGuard ],
-//     ...daybookRouter
-//   }
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import('../views/Login.vue')
+  },
+  {
+    path: '/registro',
+    name: 'Registro',
+    //component: Home
+    component: () => import('../views/Registro.vue')
+  },
+  {
+    path: '/streamings',
+    name: 'Streamings',
+    //component: Home
+    component: () => import('../views/Streamings.vue')
+  },
+  {
+    path: '/streamings/:id',
+    name: 'Streaming',
+    //component: Home
+    component: () => import('../views/Streaming.vue')
+  }
 ]
 
 const router = createRouter({
