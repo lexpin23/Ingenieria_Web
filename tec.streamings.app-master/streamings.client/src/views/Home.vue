@@ -1,10 +1,28 @@
 <template>
-  <h1>Hola</h1>
+
+<div id="home">
+  <Titulo texto="Página de Inicio"/>
+  <NavbarPublic/> 
+  <router-link to="/Streamings">
+
+  </router-link>
+
+</div>
+  
 </template>
 
 <script>
-export default {
 
+import Titulo from '../components/Titulo.vue'
+import NavbarPublic from '../components/NavbarPublic.vue'
+
+
+export default {
+      components: {
+        Titulo,
+        NavbarPublic
+        
+      }
 }
 </script>
 

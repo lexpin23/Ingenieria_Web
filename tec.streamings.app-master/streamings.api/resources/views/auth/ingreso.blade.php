@@ -53,7 +53,6 @@
     <div class="d-flex flex-row" style="margin-top: auto">
         <button id="limpiar1" class="btn btn-outline-secondary custom-btn">Limpiar</button>
         <button id="ingresar" name="action" value="login" class="btn btn-outline-secondary custom-btn">Ingresar</button>
-
     </div>
   </form >
 
